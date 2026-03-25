@@ -7,7 +7,7 @@ const env = process.env.NODE_ENV || 'development';
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'application/json' });
-  res.end(JSON.stringify({ message: 'Hello World', env }));
+  res.end(JSON.stringify({ message: 'Bienvenue sur le serveur principal', env }));
 });
 
 server.listen(PORT, () => {
