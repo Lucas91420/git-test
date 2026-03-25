@@ -11,5 +11,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Serveur démarré sur le port ${PORT} en mode ${env}`);
+  console.log(`[MAIN] Serveur démarré sur le port ${PORT} en mode ${env}`);
 });
